@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aclonica">
+  <title>Weather widget</title>
+</head>
+<body>
+  <div class="box">
+    <h1 class="box_header">The Weather Widget</h1>
+    <div>
+      <input class="search_field" placeholder="Search for a city">
+      <button onclick="handleInputValue()" class="search_button"> Search</button>
+    </div>
+    <div class="innerBox">
+      <h2 class="weather_description"> - - </h2>
+      <h2 class="current_temperature"> - - °C</h2>
+    </div>    
+  </div>
+</body>
+<script src="app.js"></script>
+</html>
